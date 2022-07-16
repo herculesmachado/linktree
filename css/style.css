@@ -20,6 +20,7 @@
 body{
     background-color: var(--cor-fundo);
     font-family: var(--font);
+    
 }
 
 html{
@@ -41,8 +42,7 @@ html{
 .container-principal{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    padding: 40px 0 60px 0;
 }
 
 .container-secundario{
@@ -51,10 +51,16 @@ html{
     align-items: center;
 }
 
+.container-secundario img{
+    height: 150px;
+    width: 150px;
+}
+
 .container-titles{
     text-align: center;
     margin-top: 20px;
     color: var(--cor-title-box-h1-h2);
+    
 }
 
 .container-titles h1{
@@ -123,4 +129,8 @@ html{
     color: var(--cor-title-box-h1-h2);
     border-radius: 5px;
     border: 0;
+}
+
+button{
+    cursor: pointer;
 }
